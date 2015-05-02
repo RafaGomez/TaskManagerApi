@@ -9,7 +9,7 @@ Scenario: Add task
 	When the user sends a POST request to "/tasks" with the following:
 	 """
 	 {
-	  "Description" : "Buy milk",
+	  "Description" : "Buy milk"
 	 }
 	 """
 	Then the response status should be "201"
