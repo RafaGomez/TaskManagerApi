@@ -1,4 +1,4 @@
-Feature: Watch my pending tasks
+Feature: #1 Watch my pending tasks
 In order to be more productive
 As an User
 I want to watch my pending tasks
