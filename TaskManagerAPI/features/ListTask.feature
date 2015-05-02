@@ -10,7 +10,7 @@ Scenario: List task
 	|id |  Description  	| 
 	| 1 | Build an API		| 
 	| 2 | Read emails		| 
- When the user request a list of task
+ When the user request a list of tasks
  Then the response is a list with 2 tasks
  And one task has the following attributes:
     | attribute  | type    | value        |
